@@ -1,0 +1,37 @@
+/* nav.css */
+@import "tailwindcss";
+
+.nav-dropdown-item {
+  &:hover svg {
+    translate: 10px;
+    transition: ease-in-out 0.5s all;
+  }
+}
+
+/* Ensure navbar stays fixed on all pages */
+nav[data-aos="fade-down"] {
+  position: fixed !important;
+  top: 2rem !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 998 !important;
+  width: 100% !important;
+}
+
+@media (min-width: 1024px) {
+  nav[data-aos="fade-down"] {
+    top: 5rem !important;
+  }
+}
+
+/* Ensure dropdowns appear above other content */
+nav ul li ul {
+  z-index: 1000 !important;
+}
+
+/* Smooth transitions for better UX */
+nav .group:hover ul {
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}

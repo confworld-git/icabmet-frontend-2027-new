@@ -1,0 +1,14 @@
+
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /terms-and-conditions
+Disallow: /login
+Disallow: /Dashboard
+Disallow: /Dashboard/Registration
+Disallow: /Dashboard/Submission
+Disallow: /Dashboard/CommitteeMember
+Disallow: /Dashboard/Contact
+Disallow: /Dashboard/Downloads
+Disallow: /Dashboard/Enquiries
+Disallow: /Dashboard/Speakers
