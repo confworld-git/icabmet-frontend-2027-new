@@ -178,7 +178,7 @@ export default function HeroSection() {
                 {/* Mobile Video */}
                 <div className="lg:hidden w-full aspect-video rounded-2xl overflow-hidden border-2 border-rose-700 shadow-lg">
                   <video
-                    src="/videos/home.mp4"
+                    src="/videos/home.webm"
                     className="w-full h-full object-cover"
                     autoPlay
                     muted
@@ -193,7 +193,7 @@ export default function HeroSection() {
                   <div className="w-full mx-auto h-auto bg-gradient-to-br from-rose-600 to-rose-700 rounded-2xl shadow-2xl p-1">
                     <div className="w-full h-auto bg-rose-700 rounded-xl overflow-hidden">
                       <video
-                        src="/videos/home.mp4"
+                        src="/videos/home.webm"
                         className="w-full h-auto object-fit"
                         autoPlay
                         muted
