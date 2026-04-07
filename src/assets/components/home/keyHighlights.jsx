@@ -101,9 +101,9 @@ export default function KeyHighlights() {
               </p>
             </div>
             {/* Decorative large text */}
-            <div className="hidden md:block text-[80px] font-black text-rose-600 leading-none select-none">
+            {/* <div className="hidden md:block text-[80px] font-black text-rose-600 leading-none select-none">
               07
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -117,9 +117,9 @@ function Card({ item, index }) {
     <div className={`group p-8 hover:bg-rose-700 transition-colors duration-200 cursor-default ${isOdd ? "bg-rose-100" : "bg-white"}`}>
       {/* Number + icon row */}
       <div className="flex items-center justify-between mb-6">
-        <div className="w-10 h-10 flex items-center justify-center border-2 border-rose-700 group-hover:border-white text-rose-700 group-hover:text-white font-black text-sm transition-colors duration-200">
+        {/* <div className="w-10 h-10 flex items-center justify-center border-2 border-rose-700 group-hover:border-white text-rose-700 group-hover:text-white font-black text-sm transition-colors duration-200">
           {String(index + 1).padStart(2, "0")}
-        </div>
+        </div> */}
         <span className="text-rose-700 group-hover:text-rose-200 transition-colors duration-200">
           {item.icon}
         </span>

@@ -142,7 +142,7 @@ export default function AboutICABMET() {
                   ? "border-rose-700 text-rose-700 group-hover:border-white group-hover:text-white"
                   : "border-orange-500 text-orange-500 group-hover:border-white group-hover:text-white"
               }`}>
-                {String(i + 1).padStart(2, "0")}
+                ✔️
               </div>
               <p className="text-base text-gray-700 leading-relaxed pt-2 group-hover:text-white transition-colors duration-200">{obj}</p>
             </div>
@@ -208,7 +208,7 @@ export default function AboutICABMET() {
                     }`}
                   >
                     {/* Number */}
-                    <div
+                    {/* <div
                       className={`shrink-0 w-10 h-10 flex items-center justify-center border-2 font-black text-sm transition-colors duration-200 ${
                         activeIndex === idx
                           ? "border-white text-white"
@@ -218,7 +218,7 @@ export default function AboutICABMET() {
                       }`}
                     >
                       {String(idx + 1).padStart(2, "0")}
-                    </div>
+                    </div> */}
 
                     <div className="flex-1">
                       <div className="flex items-center gap-3 mb-2">

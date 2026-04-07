@@ -112,19 +112,19 @@ export default function WhyJoinUs() {
                 }`}
               >
                 <span className="text-white opacity-80">{item.icon}</span>
-                <span className="text-5xl font-black text-white opacity-20 leading-none select-none">
+                {/* <span className="text-5xl font-black text-white opacity-20 leading-none select-none">
                   {num}
-                </span>
+                </span> */}
               </div>
 
               {/* Content slab — white bg for all rows */}
               <div className="flex-1 flex items-center px-8 md:px-12 py-8 border-b border-gray-100 bg-white">
                 <div className="max-w-2xl">
                   <div className="flex items-center gap-3 mb-3">
-                    <span className={`text-xs font-black uppercase tracking-[0.25em] ${isEven ? "text-rose-700" : "text-orange-500"}`}>
+                    {/* <span className={`text-xs font-black uppercase tracking-[0.25em] ${isEven ? "text-rose-700" : "text-orange-500"}`}>
                       {num}
-                    </span>
-                    <div className={`h-px w-8 ${isEven ? "bg-rose-700" : "bg-orange-500"}`} />
+                    </span> */}
+                    {/* <div className={`h-px w-8 ${isEven ? "bg-rose-700" : "bg-orange-500"}`} /> */}
                   </div>
                   <h3 className="text-xl md:text-2xl font-black text-gray-900 mb-3 leading-snug">
                     {item.title}

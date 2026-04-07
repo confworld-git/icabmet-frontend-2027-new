@@ -395,9 +395,9 @@ const OCMFormPage = () => {
                         key={i}
                         className="req-item flex items-start gap-4 page-font"
                       >
-                        <span className="number-badge text-orange-400 text-2xl font-bold leading-none w-8 shrink-0">
+                        {/* <span className="number-badge text-orange-400 text-2xl font-bold leading-none w-8 shrink-0">
                           {String(i + 1).padStart(2, "0")}
-                        </span>
+                        </span> */}
                         <div className="flex-1">
                           <p className="text-gray-800 text-base leading-relaxed">
                             {item}

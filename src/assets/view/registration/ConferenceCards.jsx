@@ -141,11 +141,11 @@ export default function GroupDiscountPage() {
             {/* Rules — numbered rows */}
             <div className="space-y-3 mb-8">
               {[
-                { num: "01", text: "An author may submit and present a maximum of three papers at the conference.", rose: true },
-                { num: "02", text: "If you are presenting more than one paper, full payment is required for the first paper.", rose: false },
-                { num: "03", text: "Additional oral or poster presentations incur an additional fee of $150 USD for each paper.", rose: true },
-                { num: "04", text: "If any paper requires Scopus publication, you must pay the publication fee for each paper.", rose: false },
-                { num: "05", text: "If you have more than 3 papers, additional papers can be presented by a co-author on full registration.", rose: true },
+                { num: "⭐", text: "An author may submit and present a maximum of three papers at the conference.", rose: true },
+                { num: "⭐", text: "If you are presenting more than one paper, full payment is required for the first paper.", rose: false },
+                { num: "⭐", text: "Additional oral or poster presentations incur an additional fee of $150 USD for each paper.", rose: true },
+                { num: "⭐", text: "If any paper requires Scopus publication, you must pay the publication fee for each paper.", rose: false },
+                { num: "⭐", text: "If you have more than 3 papers, additional papers can be presented by a co-author on full registration.", rose: true },
               ].map((item) => (
                 <div
                   key={item.num}

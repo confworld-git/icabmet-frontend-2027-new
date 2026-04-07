@@ -60,7 +60,7 @@ function AbstractGuidelines() {
           {rules.map((rule, i) => (
             <li key={i} className="flex items-start gap-4 border-b border-rose-700 pb-3 last:border-0 last:pb-0">
               <span className="flex-shrink-0 w-7 h-7 rounded text-white text-xs flex items-center justify-center font-black mt-0.5 bg-rose-700">
-                {i + 1}
+                ✏️
               </span>
               <span className="text-sm font-semibold text-gray-900 leading-relaxed">{rule}</span>
             </li>
@@ -131,7 +131,7 @@ function FullPaperGuidelines() {
             {sections.map((s, i) => (
               <div key={i} className="flex items-start gap-3 bg-white border border-rose-700 rounded p-3">
                 <span className="flex-shrink-0 w-7 h-7 text-white text-xs font-black flex items-center justify-center rounded bg-rose-700">
-                  {i + 1}
+                  ✏️
                 </span>
                 <span className="text-sm font-bold text-gray-900">{s}</span>
               </div>
@@ -219,7 +219,7 @@ function PlagiarismPolicy() {
         ].map((card, i) => (
           <div key={i} className="flex gap-4 border-2 rounded p-5 bg-white border-rose-700">
             <span className="flex-shrink-0 w-10 h-10 text-white text-lg font-black flex items-center justify-center rounded bg-rose-700">
-              {card.num}
+              ✏️
             </span>
             <div>
               <h4 className="text-base font-black mb-2 text-rose-700">{card.title}</h4>

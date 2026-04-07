@@ -270,7 +270,7 @@ export default function Welcome() {
                   : "bg-white hover:bg-gray-50"
               }`}
             >
-              <div
+              {/* <div
                 className={`shrink-0 w-10 h-10 flex items-center justify-center font-black text-sm border-2 transition-colors duration-200 ${
                   activeIndex === idx
                     ? "border-white text-white"
@@ -280,7 +280,7 @@ export default function Welcome() {
                 }`}
               >
                 {String(idx + 1).padStart(2, "0")}
-              </div>
+              </div> */}
 
               <div className="flex items-start gap-4 flex-1">
                 <span

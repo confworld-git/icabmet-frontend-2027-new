@@ -194,9 +194,7 @@ const RegistrationInstructions = () => {
                 {/* Card */}
                 <div className={`flex-1 border-l-4 bg-white px-5 py-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow duration-200 ${item.orange ? "border-l-orange-500" : "border-l-rose-700"}`}>
                   <div className="flex items-center gap-3 mb-1">
-                    <span className={`text-xs font-black uppercase tracking-[0.2em] ${item.orange ? "text-orange-500" : "text-rose-700"}`}>
-                      {String(index + 1).padStart(2, "0")}
-                    </span>
+                   
                     <h3 className="text-base font-black text-gray-900">{item.title}</h3>
                   </div>
                   <p className="text-gray-600 text-sm leading-relaxed">{item.description}</p>
